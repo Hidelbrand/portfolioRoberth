@@ -249,7 +249,7 @@ img {
   width: 200px;
   border-radius: 0.5rem;
 }
-#about__text {
+.about__text {
   text-align: justify;
 }
 
@@ -261,7 +261,7 @@ img {
 .skills__subtitle {
   margin-bottom: var(--mb-2);
 }
-#skills__text {
+.skills__text {
   margin-bottom: var(--mb-4);
   text-align: justify;
 }
