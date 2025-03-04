@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <!-- =====BOX ICONS===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+        <title>Portfolio website</title>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">Roberth Lincon</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">Sobre Mim</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Habilidades</a></li>
+                        <li class="nav__item"><a href="#work" class="nav__link">Trabalhos</a></li>
+                        <li class="nav__item"><a href="#curriculum" class="nav__link">Currículo</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contato</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home bd-grid" id="home">
+                <div class="home__data">
+                    <h1 class="home__title">Olá,<br>Eu sou <span class="home__title-color">Robert</span><br> Geólogo</h1>
+
+                    <a href="//api.whatsapp.com/send?phone=5571984716156" target="_blank" class="button">Contato</a>
+                </div>
+
+                <div class="home__social">
+                    <a href="https://www.linkedin.com/in/roberth-lincon-9044171bb/" target="_blank" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+                </div>
+
+                <div class="home__img">
+                    <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <mask id="mask0" mask-type="alpha">
+                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                        </mask>
+                        <g mask="url(#mask0)">
+                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                            <image class="home__blob-img" x="50" y="60" href="assets/img/perfil.png"/>
+                        </g>
+                    </svg>
+                </div>
+            </section>
+
+            <!--===== ABOUT =====-->
+            <section class="about section " id="about">
+                <h2 class="section-title">Sobre mim</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="assets/img/about.jpg" alt="">
+                    </div>
+                    
+                    <div>
+                        <h2 class="about__subtitle">Eu sou o Robert</h2>
+                        <p class="about__text">Sou Técnico em Geologia com experiência prática em cartografia temática, atuando na área desde 2021. Durante minha trajetória, desenvolvi habilidades no uso de softwares GIS para a criação e análise de mapas e dados geoespaciais, aplicando essas ferramentas em diversos projetos.
+
+                            Atualmente, sou graduando em Geologia e, desde 2024, bolsista PIBIC-AF (CNPq) no Projeto Atlas Linguístico do Brasil (ALiB). Nessa iniciativa, estou envolvido no desenvolvimento do volume 4 (Fase 1) do projeto, com foco em cartografia temática, o que tem me permitido aprofundar meus conhecimentos em geotecnologias e ampliar minha experiência no mapeamento e análise de dados linguísticos e geográficos.
+                            
+                            Combinando minha formação técnica com a experiência prática no campo da Geologia e Cartografia, busco constantemente aprender e contribuir com projetos que integrem a geologia, a cartografia e a análise espacial.</p>           
+                    </div>                                   
+                </div>
+            </section>
+
+            <!--===== SKILLS =====-->
+            <section class="skills section" id="skills">
+                <h2 class="section-title">Habilidades</h2>
+
+                <div class="skills__container bd-grid">          
+                    <div>
+                        <h2 class="skills__subtitle">Habilidades Profissionais</h2>
+                        <p class="skills__text">Locação geológica e geofísica de poço, licenciamento e regularização ambiental de poço, CAR/CEFIR (cadastro rural inema), medição de terreno com georreferenciamento, desmembramento rural, usucapião, Requerimento minerário para pesquisa/lavra de substâncias minerais, análise físico-química de água, produção de mapas temáticos para qualquer fim.</p>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <img src="assets/img/arcgis.png" alt="" id="skills__icon">
+                                <span class="skills__name">ArcGis</span>
+                            </div>
+                            <div class="skills__bar skills__html">
+
+                            </div>
+                            <div>
+                                <span class="skills__percentage">95%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <img src="assets/img/earth.png" alt="" id="skills__icon">
+                                <span class="skills__name">Google Earth</span>
+                            </div>
+                            <div class="skills__bar skills__css">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">85%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <img src="assets/img/strater.png" alt="" id="skills__icon">
+                                <span class="skills__name">Strater</span>
+                            </div>
+                            <div class="skills__bar skills__js">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">65%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <img src="assets/img/wikloc.png" alt="" id="skills__icon">
+                                <span class="skills__name">Wikiloc</span>
+                            </div>
+                            <div class="skills__bar skills__ux">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div>              
+                        <img src="assets/img/work3.jpg" alt="" class="skills__img">
+                    </div>
+                </div>
+            </section>
+
+            <!--===== WORK =====-->
+            <section class="work section" id="work">
+                
+                <h2 class="section-title">Trabalhos</h2>
+                <div class="work__container bd-grid">
+                    <div  href="" class="work__img">
+                        <img onclick="abrirmodal(this)" src="assets/img/mapa1.pdf.jpg" alt="">
+                    </div>
+                    <div href="" class="work__img">
+                        <img onclick="abrirmodal(this)" src="assets/img/mapa2.pdf.jpg" alt="">
+                    </div>
+                    <div href="" class="work__img">
+                        <img onclick="abrirmodal(this)" src="assets/img/mapa3.pdf.jpg" alt="">
+                    </div>
+                    <div href="" class="work__img">
+                        <img onclick="abrirmodal(this)" src="assets/img/mapa4.pdf.jpg" alt="">
+                    </div>
+                    <div href="" class="work__img">
+                        <img onclick="abrirmodal(this)" src="assets/img/mapa7.jpg" alt="">
+                    </div>
+                    <div href="" class="work__img">
+                        <img onclick="abrirmodal(this)" src="assets/img/mapa8.jpg" alt="">
+                    </div>
+                </div>
+            </section>
+                   <!--===== MODAL =====-->
+                   <div class="janela-modal" id="janela-modal">
+                    <div class="modal">
+                        <button class="fechar" id="fechar">X</button>
+                        <img id="modal-imagem" src="" alt="">
+                    </div>
+                </div>
+            
+     
+
+             <!--===== WORK =====-->
+             <section class="curriculum section" id="curriculum">
+                <h2 class="section-title">Currículo</h2>
+                <div><iframe id="iframe" src="assets/curriculo_roberth.pdf" ></iframe></div>
+                
+            </section>
+
+            <!--===== CONTACT =====-->
+            <section class="contact section" id="contact">
+                <h2 class="section-title">Contato</h2>
+                <div class="contact-box">
+                    <div class="contact__container bd-grid">
+                        
+                    <div class="endereco">
+                            <h3>Roberth Lincon Matos</h3>
+                            <p>Rua Pascalle Gatto, 394</p>
+                            <p>Piatã, Salvador - BA</p>
+                            <p>(75) 98471-6156</p>
+                            <p>ROBERTHSANTOS@UFBA.BR</p>
+                            <a target="_blank" href="//api.whatsapp.com/send?phone=5571984716156"> <img id="logowhats"
+                                    src="assets/img/WhatsApp_logo.svg.png" alt=""></a>
+
+                        </div>
+                    </div>
+                    
+                    <!--<div class="contact__container bd-grid">
+                        <form action="" class="contact__form">
+                            <input type="text" placeholder="Name" class="contact__input">
+                            <input type="mail" placeholder="Email" class="contact__input">
+                            <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
+                            <input type="button" value="Enviar" class="contact__button button">
+                        </form>
+                    </div>-->
+                </div>
+            </section>
+            </main>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            <p class="footer__title">Roberth Lincon</p>
+            <p class="footer__copy">&#169; RL Mapas Temáticos. All rigths reserved</p>
+        </footer>
+
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+    </body>
+    
+</html>
