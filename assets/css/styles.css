@@ -249,6 +249,9 @@ img {
   width: 200px;
   border-radius: 0.5rem;
 }
+.about__text {
+  text-align: justify;
+}
 
 /* ===== SKILLS =====*/
 .skills__container {
@@ -260,6 +263,7 @@ img {
 }
 .skills__text {
   margin-bottom: var(--mb-4);
+  text-align: justify;
 }
 .skills__data {
   display: flex;
