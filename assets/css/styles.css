@@ -331,14 +331,15 @@ margin-right: 10px;
   bottom: 10px; 
   left: 50%;
   width: 100%;
-  transform: translateX(-50%);
+  transform: translateX(-50%); 
   background: rgba(0, 0, 0, 0.6); 
-  color: white;
+  color: rgb(207, 191, 191);
   padding: 10px 20px;
   border-radius: 5px;
   font-size: 16px;
   cursor: pointer;
 }
+
 .work__img img {
   transition: 1s;
 }
